@@ -18,7 +18,6 @@ function figureOut() {
 				case 'L': if (col - 1 >= 0) col--; break;
 			}
 
-		console.log(`x: ${row} y: ${col}`)
 		result += keypad[row][col];
 	}
 }
